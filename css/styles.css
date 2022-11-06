@@ -59,7 +59,7 @@ address
 {
     padding-top: 24px;
     padding-bottom: 25px;
-    border: 1px solid #ECECEC;;
+    border-bottom: 1px solid #ECECEC;;
 }
 .header a
 {
@@ -142,11 +142,7 @@ address
     background: var(--color-backgroung)
     
 }
-.conteiner-her
-{
-    
 
-}
 .block-title
 {
     padding: 200px 452px;
@@ -163,6 +159,10 @@ address
     
       
     margin-bottom: 30px;
+    width: 696px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
   
     
 }
@@ -370,10 +370,20 @@ address
 
 
 /* ----------Portfolio------------ */
-
+.conteiner-menu
+{
+    padding-top: 94px;
+    padding-bottom: 34px;
+    display: flex;
+    gap: 8px;
+    justify-content: center
+}
 
 .portfolio-btn 
 {
+    min-width: 73px;
+    height: 38px;
+
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -384,7 +394,7 @@ address
     border-radius: 4px;
     border: none;
     color: var(--color-black)
-  
+
 }
 
 .portfolio-btn:hover,
@@ -395,7 +405,18 @@ address
     border-radius: 4px;
     color: var(--color-white);
 }
+.conteiner-portfolio
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 94px;
+}
+.border-portfolio
+{
 
+}
 .portfolio-title 
 {
     font-weight: 700;
