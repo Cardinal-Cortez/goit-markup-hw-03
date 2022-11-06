@@ -413,18 +413,26 @@ address
     justify-content: center;
     padding-bottom: 94px;
 }
-.portfolio-img
+.img-block
 {
-    border: 0;
+    width: 370px;
+    height: 294px;
 }
+
 .border-portfolio
 {   
-    border-left: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    
+    border: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
 }
 .portfolio-title 
 {
+    padding-bottom: 4px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36/18);
