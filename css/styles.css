@@ -413,9 +413,15 @@ address
     justify-content: center;
     padding-bottom: 94px;
 }
-.border-portfolio
+.portfolio-img
 {
-    border: 1px solid #EEEEEE;
+    border: 0;
+}
+.border-portfolio
+{   
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 .portfolio-title 
 {
