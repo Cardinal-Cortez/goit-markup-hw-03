@@ -137,10 +137,11 @@ address
 /* -------------HERO------------- */
 
 .hero 
-{
+{    
     padding: 200px;
     background: var(--color-backgroung)
 }
+
 
 .block-title
 {
