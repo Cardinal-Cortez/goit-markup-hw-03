@@ -415,7 +415,7 @@ address
 }
 .border-portfolio
 {
-
+    border: 1px solid #EEEEEE;
 }
 .portfolio-title 
 {
